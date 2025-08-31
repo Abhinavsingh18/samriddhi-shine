@@ -9,6 +9,7 @@ const Header = () => {
     { name: 'Home', href: '#home' },
     { name: 'Products', href: '#products' },
     { name: 'Services', href: '#services' },
+    { name: 'Investment', href: '#investment' },
     { name: 'About', href: '#about' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -43,10 +44,10 @@ const Header = () => {
 
           <div className="hidden md:flex space-x-4">
             <Button variant="outline" size="sm">
-              Get Quote
+              <a href="#get-quote">Get Quote</a>
             </Button>
             <Button size="sm" className="bg-gradient-primary hover:bg-primary-hover">
-              Contact Us
+              <a href="#contact">Contact Us</a>
             </Button>
           </div>
 
@@ -75,10 +76,10 @@ const Header = () => {
               ))}
               <div className="flex flex-col space-y-2 pt-4">
                 <Button variant="outline" size="sm">
-                  Get Quote
+                  <a href="#get-quote">Get Quote</a>
                 </Button>
                 <Button size="sm" className="bg-gradient-primary hover:bg-primary-hover">
-                  Contact Us
+                  <a href="#contact">Contact Us</a>
                 </Button>
               </div>
             </div>
